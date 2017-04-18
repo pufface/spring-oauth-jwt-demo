@@ -36,6 +36,7 @@ PREREQUISITS:
 * Gradle 3.4
 
 RUN SERVER: `gradle bootRun`
+
 ECLIPSE PROJECT: `gradle eclipse`
 
 ## OAuth2 Resource Server
@@ -49,6 +50,7 @@ PREREQUISITS:
 * Gradle 3.4
 
 RUN SERVER: `gradle bootRun`
+
 ECLIPSE PROJECT: `gradle eclipse`
 
 ## OAuth2 client JS
