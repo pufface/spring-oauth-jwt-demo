@@ -7,3 +7,13 @@
 */.project
 */.settings
 */bin
+
+# General
+*/.vscode
+*/.DS_STORE
+*.log*
+
+# Npm
+*/node_modules
+*/.module-cache
+*/dist

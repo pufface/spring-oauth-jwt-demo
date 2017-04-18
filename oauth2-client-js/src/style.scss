@@ -1,0 +1,31 @@
+@import "~bootstrap/scss/bootstrap";
+
+$my-base: #fcfcfc;
+$my-alt: #dcdcdc;
+$my-hig: #888;
+
+body {
+  background-color: $my-base;
+}
+
+.client {
+  border-top: 1px solid $my-hig;
+  &:last-of-type {
+    border-bottom: 1px solid $my-hig;
+  }
+  &:nth-child(odd) {
+    background-color: $my-alt;
+  }
+
+  .resp-ok {
+    color: green;
+  }
+  .resp-fail {
+    color: red;
+  }
+
+}
+
+.h6 {
+  line-height: initial;
+}
